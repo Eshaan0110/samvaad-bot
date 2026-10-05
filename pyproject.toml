@@ -1,0 +1,12 @@
+[project]
+name = "sanskrit-multilingual-chatbot"
+version = "0.1.0"
+description = "A simple English and Sanskrit multilingual computational chatbot built with Flask, Docker, and Jenkins CI."
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "flask>=3.0.3",
+]
+
+[tool.uv]
+# uv-specific settings (keeping defaults is fine for this project)
